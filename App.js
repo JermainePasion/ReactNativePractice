@@ -20,7 +20,7 @@ export default function App() {
   // Auto-update using setInterval
   useEffect(() => {
     fetchFlexValue(); // Initial fetch
-    const interval = setInterval(fetchFlexValue, 1000); // Update every 1 second
+    const interval = setInterval(fetchFlexValue, 1000); // Update every 1 seconds
 
     return () => clearInterval(interval); // Cleanup on unmount
   }, []);
