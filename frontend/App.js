@@ -4,7 +4,7 @@ import axios from 'axios';
 
 export default function App() {
   const [flexValue, setFlexValue] = useState('Fetching...');
-  const ip = '192.168.100.239'; // Replace with your ESP8266 IP
+  const ip = '192.168.100.63'; // Replace with your ESP8266 IP
   const path = '/read';
 
   const fetchFlexValue = async () => {
