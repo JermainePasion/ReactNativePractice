@@ -11,4 +11,4 @@ tflite_model = converter.convert()
 with open('posture_model.tflite', 'wb') as f:
     f.write(tflite_model)
 
-print("Model converted to TensorFlow Lite!")
+print("Model converted to TensorFlow Lite!!")
